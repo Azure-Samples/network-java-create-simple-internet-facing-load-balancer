@@ -1,7 +1,9 @@
 ---
 page_type: sample
-languages: java
-products: azure
+languages:
+- java
+products:
+- azure
 services: virtual-network,load-balancer
 platforms: java
 author: yaohaizh
