@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: virtual-network,load-balancer
-platforms: java
-author: yaohaizh
+extensions:
+- services: virtual-network,load-balancer
+- platforms: java
 ---
 
-## Getting Started with Network - Create Simple Internet Facing Load Balancer - in Java ##
+# Getting Started with Network - Create Simple Internet Facing Load Balancer - in Java #
 
 
   Azure Network sample for creating a simple Internet facing load balancer -
