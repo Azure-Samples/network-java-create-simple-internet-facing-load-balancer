@@ -4,21 +4,19 @@ languages:
 - java
 products:
 - azure
-description: "Getting Started with Network - Create Simple Internet Facing Load Balancer - in Java"
+description: "Azure Network sample for creating a simple Internet facing load balancer."
 urlFragment: network-java-create-simple-internet-facing-load-balancer
 ---
 
-# Getting Started with Network - Create Simple Internet Facing Load Balancer - in Java #
+# Create a Simple Internet Facing Load Balancer (Java)
 
-
-  Azure Network sample for creating a simple Internet facing load balancer -
+Azure Network sample for creating a simple Internet facing load balancer -
  
-  Summary ...
+## Summary
  
-  - This sample creates a simple Internet facing load balancer that receives network traffic on
-    port 80 and sends load-balanced traffic to two virtual machines
+This sample creates a simple Internet facing load balancer that receives network traffic on port 80 and sends load-balanced traffic to two virtual machines
  
-  Details ...
+## Details
  
   1. Create two virtual machines for the backend...
   - in the same availability set
@@ -33,24 +31,22 @@ urlFragment: network-java-create-simple-internet-facing-load-balancer
   Delete the load balancer
  
 
-## Running this Sample ##
+## Running this sample
 
 To run this sample:
 
 Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
-    git clone https://github.com/Azure-Samples/network-java-create-simple-internet-facing-load-balancer.git
+```bash
+git clone https://github.com/Azure-Samples/network-java-create-simple-internet-facing-load-balancer.git
+cd network-java-create-simple-internet-facing-load-balancer
+mvn clean compile exec:java
+```
 
-    cd network-java-create-simple-internet-facing-load-balancer
-
-    mvn clean compile exec:java
-
-## More information ##
+## More information
 
 [http://azure.com/java](http://azure.com/java)
 
-If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
-
----
+If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212).
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
