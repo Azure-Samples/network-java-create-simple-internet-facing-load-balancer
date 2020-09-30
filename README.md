@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: virtual-network,load-balancer
-- platforms: java
+  services: virtual-network,load-balancer
+  platforms: java
 ---
 
 # Getting Started with Network - Create Simple Internet Facing Load Balancer - in Java #
